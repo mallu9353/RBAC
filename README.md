@@ -8,18 +8,18 @@ This project demonstrates the implementation of Authentication, Authorization, a
   Secure login and logout using JWT.
   Passwords are hashed for security.
   
-2.Role-Based Access Control:
+**2.Role-Based Access Control:**
   Assign roles (Admin, User, etc.) to users.
   Control access to resources based on roles and permissions.
   
-3.JWT Integration:
+**3.JWT Integration:**
   Tokens are issued during authentication.
   Tokens are validated for every protected resource request.
 
-3.Global Exception Handling:
+**3.Global Exception Handling:**
   Unified handling of errors and exceptions.
   
-4.RESTful API:
+**4.RESTful API:**
   Clean and modular APIs for user and role management.
 
 ##Prerequisites
