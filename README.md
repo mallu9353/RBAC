@@ -5,38 +5,38 @@ This project demonstrates the implementation of Authentication, Authorization, a
 ## Features
 **1.User Authentication:**
 
- Secure login and logout using JWT.
- Passwords are hashed for security.
+ * Secure login and logout using JWT.
+ * Passwords are hashed for security.
   
 **2.Role-Based Access Control:**
 
-  Assign roles (Admin, User, etc.) to users.
-  Control access to resources based on roles and permissions.
+  * Assign roles (Admin, User, etc.) to users.
+  * Control access to resources based on roles and permissions.
   
 **3.JWT Integration:**
 
-  Tokens are issued during authentication.
-  Tokens are validated for every protected resource request.
+  * Tokens are issued during authentication.
+  * Tokens are validated for every protected resource request.
 
 **3.Global Exception Handling:**
 
-  Unified handling of errors and exceptions.
+  * Unified handling of errors and exceptions.
   
 **4.RESTful API:**
 
-  Clean and modular APIs for user and role management.
+  * Clean and modular APIs for user and role management.
   
 
 
 
 ## Prerequisites
-Java: JDK 17 or higher
+* Java: JDK 17 or higher
 
-Spring Boot: 3.1.x
+* Spring Boot: 3.1.x
 
-Maven: For dependency management
+* Maven: For dependency management
 
-Database: MySQL (or any supported database; update configuration as needed)
+* Database: MySQL (or any supported database; update configuration as needed)
 
 ## Setup Instructions
 
@@ -59,41 +59,41 @@ Update src/main/resources/application.properties with your database credentials.
 
 **4.Access the APIs:**
 
-Base URL: http://localhost:8080
+* Base URL: http://localhost:8080
 
 ## Technologies Used
 
-Spring Boot: Framework for building the application.
+* Spring Boot: Framework for building the application.
 
-JWT: For token-based authentication.
+* JWT: For token-based authentication.
 
-MySQL: Database for storing users and roles.
+* MySQL: Database for storing users and roles.
 
-Spring Security: For authentication and authorization.
+* Spring Security: For authentication and authorization.
 
-Lombok: To reduce boilerplate code.
+* Lombok: To reduce boilerplate code.
 
-Maven: For dependency management.
+* Maven: For dependency management.
 
 ## Security Implementation
 
 **1.Password Encryption:**
 
-Passwords are securely hashed using BCrypt.
+* Passwords are securely hashed using BCrypt.
 
 **2.JWT Token**:
 
-Tokens are issued during login.
+* Tokens are issued during login.
 
-Tokens contain claims such as username and roles.
+* Tokens contain claims such as username and roles.
 
 **3.Role-Based Access Control:**
 
-Users are assigned roles that define their access permissions.
+* Users are assigned roles that define their access permissions.
 
 **4.Global Exception Handling:**
 
-Handles and returns meaningful error responses.
+* Handles and returns meaningful error responses.
 
 
 
